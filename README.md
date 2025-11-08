@@ -1,8 +1,11 @@
 ---
-modified: 2025-01-12T19:09:42-07:00
+modified: 2025-11-07T22:06:51-07:00
 ---
 
 # DRV8213 brushed Motor Driver
+
+> [!TIP]
+> This board is part of a larger modular control board ecosystem, [CACKLE](https://github.com/techy-robot/CACKLE)
 
 This is a single motor driver based on the DRV8213RTER Texas Instruments chip. It is capable of 4 amps current in a voltage range of 1.65 to 11 volts. This is basically a 2-pin H-bridge driver with integrated protection logic. Driving one pin with PWM will cause the motor to go in one direction, driving both pins will cause braking, and disabling both pins will enable coasting.
 
