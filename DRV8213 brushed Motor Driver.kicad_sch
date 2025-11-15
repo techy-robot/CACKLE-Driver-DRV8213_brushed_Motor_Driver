@@ -2449,19 +2449,9 @@
 		(color 0 0 0 0)
 		(uuid "f364faea-41d3-4a31-9e88-fe1343afed5a")
 	)
-	(junction
-		(at 135.89 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa775069-fe6c-456b-a144-df89c4bef1db")
-	)
 	(no_connect
 		(at 52.07 91.44)
 		(uuid "47afb418-53c2-458f-9f96-ee4ed2b83dc8")
-	)
-	(no_connect
-		(at 80.01 158.75)
-		(uuid "c40134d4-9b26-4431-ad44-18d162393366")
 	)
 	(no_connect
 		(at 59.69 144.78)
@@ -2470,6 +2460,16 @@
 	(no_connect
 		(at 80.01 144.78)
 		(uuid "e36efe13-3d82-4815-bfd1-5fd47a3cdde0")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06dc000a-a500-4f4e-8f00-e60badb35a0e")
 	)
 	(wire
 		(pts
@@ -2520,6 +2520,16 @@
 			(type default)
 		)
 		(uuid "1dcfc0b8-66a6-4c76-8f86-7d7f264a5395")
+	)
+	(wire
+		(pts
+			(xy 158.75 62.23) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecbf60d-7ecc-4ea9-b562-3061fd206d1e")
 	)
 	(wire
 		(pts
@@ -2713,13 +2723,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 135.89 72.39)
+			(xy 135.89 67.31) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60a7c163-8ab3-40dc-af82-e164469d85ad")
+		(uuid "5fcc8b33-af83-433e-bbe8-0db546a42459")
 	)
 	(wire
 		(pts
@@ -2783,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 67.31) (xy 152.4 72.39)
+			(xy 167.64 67.31) (xy 167.64 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2990,16 +3000,6 @@
 			(type default)
 		)
 		(uuid "c642f47c-a82b-4b2c-83e6-8840352fb098")
-	)
-	(wire
-		(pts
-			(xy 135.89 67.31) (xy 135.89 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b71411-7c70-4a7b-81ad-34c3d3140d58")
 	)
 	(wire
 		(pts
@@ -3235,9 +3235,9 @@
 			)
 		)
 	)
-	(global_label "Fault"
+	(global_label "Stall"
 		(shape input)
-		(at 152.4 72.39 0)
+		(at 167.64 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3247,7 +3247,7 @@
 		)
 		(uuid "33324529-1838-4e2f-804b-eff8d51b57cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.1627 72.39 0)
+			(at 175.0398 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,6 +3323,28 @@
 			)
 		)
 	)
+	(global_label "Stall"
+		(shape input)
+		(at 80.01 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1fa5277-1458-4514-af1f-25fb89f0c40d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.4098 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC-A"
 		(shape input)
 		(at 80.01 82.55 180)
@@ -3363,6 +3385,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Fault"
+		(shape input)
+		(at 158.75 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebb70a07-2874-4d19-aa74-0e56a9e9648c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.5127 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3734,6 +3778,85 @@
 			(project "DRV8213 brushed Motor Driver"
 				(path "/8760dbe3-976e-4366-afd9-aec15b99495c"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 158.75 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b5d49a0-790c-4027-97dd-6cd384167dbb")
+		(property "Reference" "R3"
+			(at 161.29 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 161.29 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 158.75 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 161.29 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8964666c-e160-43d7-9698-cdc7a496bd53")
+		)
+		(pin "1"
+			(uuid "884f94e3-4594-439f-ae6b-661977a04bc3")
+		)
+		(instances
+			(project "DRV8213 brushed Motor Driver"
+				(path "/8760dbe3-976e-4366-afd9-aec15b99495c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4433,6 +4556,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6229a8a1-bff4-4cbf-b72f-78486ef8a584")
+		(property "Reference" "#PWR017"
+			(at 158.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 161.798 53.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fa0a2a9-3508-4dd2-bb98-4800a79c7ebb")
+		)
+		(instances
+			(project "DRV8213 brushed Motor Driver"
+				(path "/8760dbe3-976e-4366-afd9-aec15b99495c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 21.59 59.69 90)
 		(unit 1)
@@ -5064,7 +5252,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 62.23 0)
+		(at 167.64 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5072,7 +5260,7 @@
 		(dnp no)
 		(uuid "a4bd161c-b84c-4bed-9383-b7d8fdbf5996")
 		(property "Reference" "#PWR06"
-			(at 152.4 66.04 0)
+			(at 167.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5269,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 155.448 58.928 0)
+			(at 170.688 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 62.23 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 62.23 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5107,7 +5295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 62.23 0)
+			(at 167.64 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5756,7 @@
 			)
 		)
 		(property "Value" "JST PH 2mm horizontal"
-			(at 134.62 55.372 0)
+			(at 133.604 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6525,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 152.4 64.77 0)
+		(at 167.64 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6346,7 +6534,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6068c77-761c-4121-96af-041662382d38")
 		(property "Reference" "R1"
-			(at 154.94 63.4999 0)
+			(at 170.18 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6543,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 154.94 66.0399 0)
+			(at 170.18 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6364,7 +6552,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 64.77 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 64.77 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6570,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 152.4 64.77 0)
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6579,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 154.94 63.4999 0)
+			(at 170.18 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
