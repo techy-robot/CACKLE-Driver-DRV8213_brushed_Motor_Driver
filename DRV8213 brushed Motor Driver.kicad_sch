@@ -2213,6 +2213,26 @@
 		)
 		(uuid "367ee93f-3a97-4e83-a26d-b26238ce1586")
 	)
+	(text_box "Mirrored pin numbers of the hubs because the footprint was not designed to be a B2B mating one"
+		(exclude_from_sim no)
+		(at 59.69 123.444 0)
+		(size 25.4 12.954)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "3eeba4a9-239f-45c3-bcc4-08149957530d")
+	)
 	(text_box "- Current regulation Enabled at all times\n- Stall detection Enabled no shutdown"
 		(exclude_from_sim no)
 		(at 82.55 105.664 0)
@@ -3551,16 +3571,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 68.58 156.21 0)
+		(at 68.58 158.75 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "27366ec6-e55e-4cc4-8c60-45c35404effd")
 		(property "Reference" "J11"
-			(at 69.85 149.86 0)
+			(at 69.85 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,7 +3588,7 @@
 			)
 		)
 		(property "Value" "Precidip 852-10-004-20-001101"
-			(at 69.85 152.4 0)
+			(at 69.85 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3576,7 +3596,7 @@
 			)
 		)
 		(property "Footprint" "custom_Connector:Precidip 852-10-004-20-001101"
-			(at 68.58 156.21 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,7 +3605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 156.21 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,7 +3614,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 156.21 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5156,16 +5176,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 68.58 142.24 0)
+		(at 68.58 144.78 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "81c9f7d6-da5c-423c-81e1-09fa84b76f70")
 		(property "Reference" "J10"
-			(at 69.85 135.89 0)
+			(at 69.85 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5173,7 +5193,7 @@
 			)
 		)
 		(property "Value" "Precidip 852-10-004-20-001101"
-			(at 69.85 138.43 0)
+			(at 69.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5181,7 +5201,7 @@
 			)
 		)
 		(property "Footprint" "custom_Connector:Precidip 852-10-004-20-001101"
-			(at 68.58 142.24 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 142.24 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5219,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 68.58 142.24 0)
+			(at 68.58 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
