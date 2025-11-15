@@ -2273,14 +2273,14 @@
 		)
 		(uuid "7f910219-e473-498f-99de-85139930789f")
 	)
-	(text_box "Any capacitors on the power supply line should be rated above my intended voltage range of 3.7-7.4v\nThe bulk capacitance on VM should also be really high"
+	(text_box "Any capacitors on the power supply line should be rated above max voltage of 11 volts\nThe bulk capacitance on VM should also be really high"
 		(exclude_from_sim no)
 		(at 31.75 22.86 0)
-		(size 21.59 24.13)
+		(size 21.59 20.828)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
