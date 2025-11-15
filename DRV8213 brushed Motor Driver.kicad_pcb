@@ -182,6 +182,7 @@
 		(property "Reference" "J3"
 			(at 0.3 -2.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "dd95329c-1e1f-4b31-8539-d7e926a3b9ba")
 			(effects
 				(font
@@ -850,6 +851,7 @@
 		(property "Reference" "J1"
 			(at 1.9 -0.2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7d49de3f-96f9-4f2a-a5c7-2105dc0a379c")
 			(effects
 				(font
@@ -1778,6 +1780,7 @@
 		(property "Reference" "J10"
 			(at 3.0675 -1.635 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "603d694f-e5e3-4862-8fe2-d3b9c1894c43")
 			(effects
 				(font
@@ -2735,6 +2738,7 @@
 		(property "Reference" "J4"
 			(at 0.3 -2.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9c038763-73c5-4033-b594-0022e21f210d")
 			(effects
 				(font
@@ -2974,6 +2978,7 @@
 		(property "Reference" "J2"
 			(at 1.9 -0.2 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "08a65a2a-9303-452c-9b59-139a997cad26")
 			(effects
 				(font
@@ -3370,6 +3375,7 @@
 		(property "Reference" "J11"
 			(at 3.0675 -1.635 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "24cb0965-20b9-478f-8da7-0f81396f220c")
 			(effects
 				(font
@@ -3803,6 +3809,7 @@
 		(property "Reference" "J8"
 			(at 0.3 2.55 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "b469297b-fe92-4a31-8787-4d535495f775")
 			(effects
 				(font
@@ -4593,6 +4600,7 @@
 		(property "Reference" "J5"
 			(at 1.9 0.2 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "068382ec-9364-4e6b-b244-cbefad8fde05")
 			(effects
 				(font
@@ -4779,6 +4787,7 @@
 		(property "Reference" "R3"
 			(at 0 1.17 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "e72d46d0-267f-40c8-9e2c-1dee3b2966a7")
 			(effects
 				(font
@@ -5214,6 +5223,7 @@
 		(property "Reference" "J6"
 			(at 1.9 0.2 90)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "c2919f2d-9ab8-4d5f-951b-d27676c8da56")
 			(effects
 				(font
@@ -6346,6 +6356,7 @@
 		(property "Reference" "J7"
 			(at 0.3 2.55 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "5369f5b2-8a12-4a50-baef-ccdfebd02ee3")
 			(effects
 				(font
@@ -6810,6 +6821,7 @@
 		(property "Reference" "C10"
 			(at 0 1.43 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ffc5c8c4-d8da-4fd4-b1af-8bd90ffb6b96")
 			(effects
 				(font
