@@ -2444,6 +2444,10 @@
 		(uuid "f364faea-41d3-4a31-9e88-fe1343afed5a")
 	)
 	(no_connect
+		(at 80.01 158.75)
+		(uuid "030597ba-de10-4841-b449-f3f79451af8a")
+	)
+	(no_connect
 		(at 242.57 124.46)
 		(uuid "47afb418-53c2-458f-9f96-ee4ed2b83dc8")
 	)
@@ -3195,28 +3199,6 @@
 		)
 		(uuid "fe61f45e-8d10-4976-9048-0dfe8d496bf7")
 	)
-	(global_label "ADC-A"
-		(shape input)
-		(at 80.01 156.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b19ed92-2d9c-4e4a-8b22-6bea1886349d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.2848 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM-B"
 		(shape input)
 		(at 82.55 72.39 180)
@@ -3329,7 +3311,7 @@
 	)
 	(global_label "Stall"
 		(shape input)
-		(at 80.01 158.75 0)
+		(at 80.01 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3339,7 +3321,7 @@
 		)
 		(uuid "a1fa5277-1458-4514-af1f-25fb89f0c40d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.4098 158.75 0)
+			(at 87.4098 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
