@@ -8,8 +8,8 @@
 	)
 	(paper "A4")
 	(title_block
-		(date "2024-10-21")
-		(rev "V1")
+		(date "2025-11-15")
+		(rev "V2")
 		(comment 1 "Licensed under CERN-OHL-S V2")
 		(comment 2 "Author: Asher Edwards")
 	)
