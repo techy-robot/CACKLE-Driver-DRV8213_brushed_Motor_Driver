@@ -60,12 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|171155000|105055000|75caf57b-03ba-4d7b-8654-b07ae0946615|aa50cd05-eaf4-4139-b4fa-8cd092857ad5",
-          ""
+          "courtyards_overlap|171155000|99325000|aa50cd05-eaf4-4139-b4fa-8cd092857ad5|beb707f8-5733-4549-89a0-f3142ba77bce",
+          "can't fix, there is space still"
         ],
         [
-          "courtyards_overlap|171155000|99325000|aa50cd05-eaf4-4139-b4fa-8cd092857ad5|beb707f8-5733-4549-89a0-f3142ba77bce",
-          ""
+          "courtyards_overlap|171945000|107800000|59f12305-feb8-4eb9-97c9-39c61b5d46bd|f54c2cfd-204a-40be-9ce3-9512def2be9f",
+          "can't fix, there is space still"
+        ],
+        [
+          "courtyards_overlap|173730000|104930000|75caf57b-03ba-4d7b-8654-b07ae0946615|aa50cd05-eaf4-4139-b4fa-8cd092857ad5",
+          "can't fix, there is space still"
+        ],
+        [
+          "courtyards_overlap|179095000|98255000|aa50cd05-eaf4-4139-b4fa-8cd092857ad5|c9d42e0a-92e5-4ca1-8610-a8f830d2454d",
+          "can't fix, there is space still"
         ]
       ],
       "meta": {
