@@ -2792,7 +2792,7 @@
 			(net 2 "GNDPWR")
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "3ea52440-ea50-49ec-b0c1-a4490488c3d3")
 		)
 		(pad "17" smd rect
 			(at 0 0 90)
@@ -2803,7 +2803,7 @@
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "1e556416-9223-4dd6-8581-7abc0a0c8557")
 		)
 		(pad "17" smd rect
 			(at 0 0 90)
@@ -2814,7 +2814,7 @@
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "e86c163d-d5ae-4b1f-a2cd-685e45d3cd89")
 		)
 		(pad "17" thru_hole circle
 			(at 0.525 -0.525 90)
@@ -2826,7 +2826,7 @@
 			(net 2 "GNDPWR")
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "3e4b942f-0186-428d-a48c-902bb39083e6")
 		)
 		(pad "17" thru_hole circle
 			(at 0.525 0.525 90)
@@ -2838,7 +2838,7 @@
 			(net 2 "GNDPWR")
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "6e76cb12-4971-453d-bf0f-ecdcd3894ba6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.wrl"
@@ -7226,14 +7226,34 @@
 		)
 	)
 	(gr_line
-		(start 169.1 105.4)
-		(end 169.9 104.7)
+		(start 172.025 108.825)
+		(end 171.325 108.025)
 		(stroke
 			(width 0.12)
 			(type default)
 		)
 		(layer "B.SilkS")
 		(uuid "6290321d-f425-488e-8f0d-6044899b37a2")
+	)
+	(gr_line
+		(start 171.35 105.45)
+		(end 171.425 104.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "7a3c4716-0428-41f7-aa6f-4a7c59da0758")
+	)
+	(gr_line
+		(start 170.275 105.4)
+		(end 170.075 103.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "c2b71fd5-76e7-49d7-9f24-6b82310d6e2b")
 	)
 	(gr_rect
 		(start 163.8 94.2)
@@ -7247,7 +7267,7 @@
 		(uuid "1db8c5f3-4f41-44a5-a5d0-f4bad5dbaa2b")
 	)
 	(gr_text "+"
-		(at 174.2 95.6 -0)
+		(at 172.575 95.4 -0)
 		(layer "F.SilkS")
 		(uuid "a9b10d1a-7a4d-4249-8706-7c0ea4dd0fec")
 		(effects
@@ -7259,7 +7279,7 @@
 		)
 	)
 	(gr_text "+"
-		(at 171 109.2 -0)
+		(at 172.75 109.025 -0)
 		(layer "F.SilkS")
 		(uuid "d77dc91f-ae10-4b23-87a8-608b0797dc92")
 		(effects
@@ -7270,8 +7290,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "A"
+		(at 172.225 104.65 90)
+		(layer "B.SilkS")
+		(uuid "059bcc84-d063-431d-b359-2a96e9785f57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "Stall"
+		(at 170.55 103.175 0)
+		(layer "B.SilkS")
+		(uuid "377549ea-5a2f-47d1-aa88-466e79060e87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "<20A"
-		(at 174.8 99.1 0)
+		(at 174.75 99.35 0)
 		(layer "B.SilkS")
 		(uuid "38abb8d8-19a2-4f38-88ec-38e025c03f26")
 		(effects
@@ -7295,7 +7339,7 @@
 		)
 	)
 	(gr_text "Fault"
-		(at 173.2 104.6 0)
+		(at 173.4 105.175 90)
 		(layer "B.SilkS")
 		(uuid "519207da-d7da-4a27-8a8e-228b1df8e0e7")
 		(effects
@@ -7307,7 +7351,7 @@
 		)
 	)
 	(gr_text "PWM"
-		(at 167.3 96.6 0)
+		(at 168.075 94.225 90)
 		(layer "B.SilkS")
 		(uuid "7e413e30-ebba-4ce9-9591-03d840bcb668")
 		(effects
@@ -7318,8 +7362,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "B A"
-		(at 170.35 98.65 90)
+	(gr_text "A B"
+		(at 169.225 95.425 0)
 		(layer "B.SilkS")
 		(uuid "7fe4890a-69c1-4dcb-9494-b67970f97a92")
 		(effects
@@ -7343,7 +7387,7 @@
 		)
 	)
 	(gr_text "-"
-		(at 175.1 109.1 -0)
+		(at 178.75 106.7 -0)
 		(layer "B.SilkS")
 		(uuid "d4c33927-6a49-471f-89a7-bcd1da8c1a99")
 		(effects
@@ -7355,7 +7399,7 @@
 		)
 	)
 	(gr_text "CSA"
-		(at 170.2 105.6 90)
+		(at 168.625 106.15 90)
 		(layer "B.SilkS")
 		(uuid "d5ee3c84-acec-4ec7-92b4-5a0ea2a7f659")
 		(effects
@@ -7366,20 +7410,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "rush"
-		(at 170.45 99.85 0)
-		(layer "B.SilkS")
-		(uuid "e20e3c74-63a5-4b51-9117-ddf89047384d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "-"
-		(at 175.9 95.3 -0)
+		(at 175.75 97.95 -0)
 		(layer "B.SilkS")
 		(uuid "e8be6e8b-dec7-4a3a-8c48-d39cd47cf334")
 		(effects
@@ -7390,9 +7422,9 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text_box "3.7~7.4V"
-		(start 176.825 98.1492)
-		(end 178.975 104.7)
+	(gr_text_box "3.0~12V"
+		(start 176.825 98.6742)
+		(end 178.975 105.225)
 		(margins 0.75 0.75 0.75 0.75)
 		(angle 90)
 		(layer "B.SilkS")
