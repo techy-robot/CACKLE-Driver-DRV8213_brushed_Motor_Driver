@@ -16,4 +16,4 @@ The module is a 4-layer PCB with additional exposed traces for the power and gro
 ![Schematic PDF](DRV8213%20brushed%20Motor%20Driver.pdf)
 
 3D model:
-![](media/DRV8213%203D%20model%20picture.jpg)
+![](media/DRV8213%203D%20model%20picture.png)
