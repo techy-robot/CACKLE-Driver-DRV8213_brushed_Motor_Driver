@@ -178,7 +178,7 @@
 	(footprint "custom_Connector:Keystone_6100"
 		(layer "F.Cu")
 		(uuid "1b32e3c1-74a1-4f1f-bb96-5d5523a7dc29")
-		(at 176.825 107.6)
+		(at 176.7 107.6)
 		(property "Reference" "J3"
 			(at 0.3 -2.55 0)
 			(layer "F.SilkS")
@@ -847,7 +847,7 @@
 	(footprint "custom_Connector:Keystone_6102"
 		(layer "F.Cu")
 		(uuid "75caf57b-03ba-4d7b-8654-b07ae0946615")
-		(at 174.375 107.075)
+		(at 174.25 107.075)
 		(property "Reference" "J1"
 			(at 1.9 -0.2 90)
 			(layer "F.SilkS")
@@ -2792,7 +2792,7 @@
 			(net 2 "GNDPWR")
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "d1feda74-2dc5-4a6d-b0eb-9580c10bd0b9")
 		)
 		(pad "17" smd rect
 			(at 0 0 90)
@@ -2803,7 +2803,7 @@
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "be8cb0ea-ac53-421a-88ee-defbccbfd651")
 		)
 		(pad "17" smd rect
 			(at 0 0 90)
@@ -2814,7 +2814,7 @@
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
 			(zone_connect 2)
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "00ea7a93-7141-433d-86e3-0b5cdb68b9c4")
 		)
 		(pad "17" thru_hole circle
 			(at 0.525 -0.525 90)
@@ -2826,7 +2826,7 @@
 			(net 2 "GNDPWR")
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "8dd982e1-804f-4734-a7a5-b3a44a631fb3")
 		)
 		(pad "17" thru_hole circle
 			(at 0.525 0.525 90)
@@ -2838,7 +2838,7 @@
 			(net 2 "GNDPWR")
 			(pinfunction "Thermal_Pad")
 			(pintype "power_in")
-			(uuid "9a146108-503c-4290-b4a0-9550149db45a")
+			(uuid "cd2a481f-48e3-4daf-a36f-c6068577a655")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.wrl"
@@ -4609,7 +4609,7 @@
 	(footprint "custom_Connector:Keystone_6102"
 		(layer "B.Cu")
 		(uuid "449b75da-2538-42c0-8fd4-207ef2a318d8")
-		(at 174.375 107.075 180)
+		(at 174.25 107.075 180)
 		(property "Reference" "J5"
 			(at 1.9 0.2 90)
 			(layer "B.SilkS")
@@ -6437,7 +6437,7 @@
 	(footprint "custom_Connector:Keystone_6100"
 		(layer "B.Cu")
 		(uuid "c9b7794d-9113-489e-a09d-3bbc63551e30")
-		(at 176.825 107.6 180)
+		(at 176.7 107.6 180)
 		(property "Reference" "J7"
 			(at 0.3 2.55 0)
 			(layer "B.SilkS")

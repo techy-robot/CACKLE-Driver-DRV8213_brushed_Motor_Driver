@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 7,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -127,21 +127,9 @@
           "display": 0,
           "maximized": true,
           "pos_x": 0,
-          "pos_y": 32,
+          "pos_y": 64,
           "size_x": 1280,
-          "size_y": 475
-        }
-      },
-      {
-        "name": "DRV8213 brushed Motor Driver.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 367,
-          "pos_y": 230,
-          "size_x": 768,
-          "size_y": 690
+          "size_y": 532
         }
       }
     ]
